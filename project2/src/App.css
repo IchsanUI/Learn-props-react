@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+.Navbar{
+  display: flex;
+  background-color: #F55A5A;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px 0;
+  gap: 10px;
+}
+.Navbar img{
+  width: 24px;
+  color: white;
+}
+.Navbar h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+.Card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 40px 60px;
+}
+
+.Card .imageWorld{
+  object-fit: cover;
+  width: 125px;
+  height: 168px;
+  border-radius: 10px;
+}
+.Card .imageLocation{
+  width: 10px;
+  height: 10px; 
+}
+
+.Desc h2{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  width: 326px;
+  height: 40px;
+  left: 184px;
+  top: 136px;
+}
+.desc--date{
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+}
+.Desc p{
+  width: 326px;
+  height: 45px;
+  left: 184px;
+  top: 203px;
+
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+.Desc .Country{
+
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+.Desc .View{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* identical to box height */
+  padding-left: 10px;
+
+  text-decoration-line: none;
+}
